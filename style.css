@@ -1,0 +1,67 @@
+#container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+#title {
+  font-size: 2em;
+}
+
+#description {
+  font-style: italic;
+}
+
+.legend-label {
+  font-size: 0.8em;
+}
+
+#tooltip {
+  position: absolute;
+  border-radius: 3px;
+  padding: 0.5em 2em;
+  text-align: center;
+  box-shadow: 0 0 3px black;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 300ms, background 300ms;
+}
+
+#tooltip-name {
+  font-weight: bold;
+}
+
+#tooltip-category {
+  display: block;
+  font-style: italic;
+  font-size: 0.8em;
+  color: #333;
+}
+
+foreignObject {
+  overflow: visible;
+}
+
+.tile-label {
+  font-size: 0.5em;
+  padding: 0.5em;
+  word-wrap: break-word;
+}
+
+footer {
+  margin-top: auto;
+  box-sizing: border-box;
+  background: black;
+  padding: 0.5em 1em;
+  color: #aaa;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer a:hover {
+  color: #eee;
+}
